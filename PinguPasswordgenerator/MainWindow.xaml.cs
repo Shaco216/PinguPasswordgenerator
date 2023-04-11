@@ -110,5 +110,15 @@ namespace PinguPasswordgenerator
             Clipboard.SetDataObject(Password.Text);
             //MessageBox.Show(Password.Text);
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PasswordCreator_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
