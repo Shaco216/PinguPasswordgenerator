@@ -9,6 +9,10 @@
     <Grid>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File"></MenuItem>
+            <MenuItem Header="_View">
+                <MenuItem Header="_PasswordCreator"></MenuItem>
+                <MenuItem Header="_PasswordStore"></MenuItem>
+            </MenuItem>
         </Menu>
         <Button x:Name="Create_Password" Content="Create Password" HorizontalAlignment="Left" Margin="26,64,0,0" VerticalAlignment="Top" Click="Create_Password_Click"/>
         <TextBox x:Name="Password" HorizontalAlignment="Left" Margin="280,65,0,0" TextWrapping="Wrap" Text="Passwordbox" VerticalAlignment="Top" Width="120"/>
