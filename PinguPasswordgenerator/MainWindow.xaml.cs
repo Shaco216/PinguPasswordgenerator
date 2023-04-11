@@ -35,6 +35,7 @@ namespace PinguPasswordgenerator
             //https://www.youtube.com/watch?v=w8eqDakZekk
             charactertypes = new string[] { "only Lowercases", "Lower and Uppercases", "Lower+Uppercases and Numbers", "All Characters" };
             DataContext = this;
+            this.Title = "PinguPasswordgenerator";
         }
 
         private void Dropdownmenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
