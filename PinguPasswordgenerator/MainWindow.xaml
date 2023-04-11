@@ -1,0 +1,20 @@
+﻿<Window x:Class="PinguPasswordgenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PinguPasswordgenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File"></MenuItem>
+        </Menu>
+        <Button x:Name="Create_Password" Content="Create Password" HorizontalAlignment="Left" Margin="26,64,0,0" VerticalAlignment="Top" Click="Create_Password_Click"/>
+        <TextBox x:Name="Password" HorizontalAlignment="Left" Margin="280,65,0,0" TextWrapping="Wrap" Text="Passwordbox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="Dropdownmenu" HorizontalAlignment="Left" Margin="26,125,0,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding charactertypes}" SelectionChanged="Dropdownmenu_SelectionChanged" SelectedIndex="3"/>
+        <TextBox x:Name="CountofCharacters" HorizontalAlignment="Left" Margin="26,173,0,0" TextWrapping="Wrap" Text="Count of Characters" VerticalAlignment="Top" Width="120" PreviewTextInput="CountofCharacters_PreviewTextInput" GotFocus="CountofCharacters_GotFocus"/>
+        <Button Content="CopyButton" HorizontalAlignment="Left" Margin="445,63,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>
