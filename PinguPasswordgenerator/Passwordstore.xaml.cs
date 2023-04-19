@@ -24,5 +24,40 @@ namespace PinguPasswordgenerator
             InitializeComponent();
             this.Title = "PinguPasswordStore";
         }
+
+        private void SaveBTN_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameTB_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void NameTB_GotFocus(object sender, RoutedEventArgs e)
+        {
+            NameTB.Clear();
+        }
+
+        private void EmailTB_GotFocus(object sender, RoutedEventArgs e)
+        {
+            EmailTB.Clear();
+        }
+
+        private void Username_GotFocus(object sender, RoutedEventArgs e)
+        {
+            Username.Clear();
+        }
+
+        private void PasswordTB_GotFocus(object sender, RoutedEventArgs e)
+        {
+            PasswordTB.Clear();
+        }
+
+        private void Window_GotFocus(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

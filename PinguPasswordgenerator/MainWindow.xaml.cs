@@ -111,14 +111,15 @@ namespace PinguPasswordgenerator
             //MessageBox.Show(Password.Text);
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void PasswordCreator_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void PasswordCreator_Click(object sender, RoutedEventArgs e)
+        private void PasswordStore_Click(object sender, RoutedEventArgs e)
         {
-
+            Passwordstore pws = new Passwordstore();
+            pws.Show();
         }
     }
 }
